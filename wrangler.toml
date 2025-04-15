@@ -1,0 +1,8 @@
+name = "vue-naura1"
+compatibility_date = "2023-10-01"
+main = "src/worker.js" 
+
+[[d1_databases]]
+binding = "DB" # Nama binding yang akan digunakan di Workers
+database_name = "vue-naura"
+database_id = "18ca9ccb-1498-4c99-8f22-a20b50d402e5"
