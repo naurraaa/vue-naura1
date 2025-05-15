@@ -108,12 +108,12 @@
 </template>
 
 <script>
-import salad from '@/assets/salad.jpg'
-import quiona from '@/assets/bowl quiona.jpg'
-import bowl from '@/assets/Bowl.jpg'
-import smoky from '@/assets/smoky.jpg'
-import sayur from '@/assets/sup sayur.jpg'
-import matcha from '@/assets/Iced Matcha.jpg'
+// import salad from '@/assets/salad.jpg'
+// import quiona from '@/assets/bowl quiona.jpg'
+// import bowl from '@/assets/Bowl.jpg'
+// import smoky from '@/assets/smoky.jpg'
+// import sayur from '@/assets/sup sayur.jpg'
+// import matcha from '@/assets/Iced Matcha.jpg'
 
 export default {
   name: 'App',
@@ -125,42 +125,42 @@ export default {
           name: 'Salad Buah Segar',
           description: 'Kombinasi buah-buahan segar dengan saus yogurt rendah kalori.',
           price: 'Rp 45.000',
-          image: salad
+          image: new URL('@/assets/salad.jpg', import.meta.url).href,
         },
         {
           id: 2,
           name: 'Bowl Quinoa',
           description: 'Quinoa dengan sayuran segar, alpukat, dan saus lemon.',
           price: 'Rp 55.000',
-          image: quiona
+          image: new URL('@/assets/bowl quiona.jpg', import.meta.url).href,
         },
         {
           id: 3,
           name: 'Smoothie Bowl Acai',
           description: 'Acai berry dengan granola, pisang, dan madu murni.',
           price: 'Rp 50.000',
-          image: bowl
+          image: new URL('@/assets/Bowl.jpg', import.meta.url).href,
         },
         {
           id: 4,
           name: 'Wrap Ayam Panggang',
           description: 'Dada ayam panggang dengan hummus dan sayuran segar.',
           price: 'Rp 60.000',
-          image: smoky
+          image: new URL('@/assets/smoky.jpg', import.meta.url).href,
         },
         {
           id: 5,
           name: 'Sup Sayuran Organik',
           description: 'Sup sayuran musiman dengan rempah-rempah pilihan.',
           price: 'Rp 40.000',
-          image: sayur
+          image: new URL('@/assets/sup sayur.jpg', import.meta.url).href,
         },
         {
           id: 6,
           name: 'Matcha Latte',
           description: 'Matcha premium dengan susu almond, rendah gula.',
           price: 'Rp 35.000',
-          image: matcha
+          image: new URL('@/assets/Iced Matcha.jpg', import.meta.url).href,
         }
       ],
       testimonials: [
